@@ -1,20 +1,21 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
+import Header from '../components/Header';
 
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Hulu 2.0</title>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-      </Head>
+	return (
+		<div>
+			<Head>
+				<title>Hulu 2.0</title>
+				<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
+			</Head>
 
-      {/* Header Component */}
+			{/* Header Component */}
+			<Header />
 
-      {/* Nav */}
+			{/* Nav */}
 
-      {/* Results */}
-    </div>
-    
-  )
+			{/* Results */}
+		</div>
+	);
 }
